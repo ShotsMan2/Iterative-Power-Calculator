@@ -3,20 +3,21 @@
 
 int main()
 {
-    int taban,üs,i,sonuc;
+    int taban, Ã¼s, i, sonuc;
 
-    sonuc=1;
+    sonuc = 1;
 
     printf("taban: ");
-    scanf("%d",&taban);
+    scanf("%d", &taban);
 
-    printf("üs: ");
-    scanf("%d",&üs);
+    printf("Ã¼s: ");
+    scanf("%d", &Ã¼s);
 
-    for(i=1;i<=üs;i++){
-        sonuc=sonuc*taban;
+    for (i = 1; i <= Ã¼s; i++)
+    {
+        sonuc = sonuc * taban;
     }
-    printf("sonuc: %d",sonuc);
+    printf("sonuc: %d", sonuc);
 
     return 0;
 }
